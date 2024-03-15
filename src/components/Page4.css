@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.gradient {
+  position: relative;
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-color: #b9d9eb;
+  color: #002244;
+  background: linear-gradient(
+    181.2deg,
+    rgb(150, 195, 217) 5%,
+    rgb(255, 254, 254) 150.8%
+  );
+}
+
+.trusted {
+  text-transform: uppercase;
+  padding: 90px;
+  margin-top: 100px;
+  font-size: 4rem;
+  align-items: center;
+  color: #002244;
+  
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 400;
+  color: #002244;
+}
+
+.gradient p {
+  font-size: 20px;
+  color: #002244;
+  margin-top: -60px;
+}
+
+.image5 {
+  margin-top: 40px;
+  height: auto;
+  max-width: 1200px;
+  position: relative;
+}

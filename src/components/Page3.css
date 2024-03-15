@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+
+  /* Light gray background */
+}
+
+.block {
+  height: 50rem;
+  width: auto;
+  background-color: #b9d9eb;
+  font-size: 1.5rem; /* Adjust font size as needed */
+  margin-bottom: 0.5rem;
+  color: #002244;
+  margin-top: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180.3deg,
+    rgb(135, 174, 220) 1.5%,
+    rgb(255, 255, 255) 100.3%
+  );
+}
+
+.block h1 {
+  color: #002244;
+  padding-top: 100px;
+}
+
+.reasons {
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+  margin-left: -40px;
+  height: auto;
+  width: 1200px;
+}
+
+.vertical {
+  border-left: 1.5px solid #002244;
+  height: 270px;
+  position: relative;
+  left: 10%;
+  border-radius: 3%;
+}
+
+.reason {
+  background-color: rgb(135, 174, 220) 1.5%;
+  padding: 20px;
+  text-align: start;
+}
+
+.reason h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 200;
+  color: #002244;
+}
+
+.reason input {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+  color: #002244;
+}
+
+.reason p {
+  font-size: 0.8rem;
+  text-transform: none;
+  color: #002244;
+  word-wrap: break-word;
+}
+
+.reason h3 {
+  font-size: 1rem;
+  color: #002244;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.div1 {
+  margin-left: 40px;
+  width: 300px;
+}
+
+.div2 {
+  margin-top: 100px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.div3 {
+  margin-top: 250px;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.div4 {
+  margin-top: 150px;
+  width: 300px;
+}
